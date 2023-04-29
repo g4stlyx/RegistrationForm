@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="registr2.css" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shorcut icon" href="abc.jpg">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <form class="form">
+            <div class="form__title">Registration Form</div>
+            <p class="form__text">Please fill out this form with the required information</p>
+            <div class="form__item">
+                <label for="firstname" class="form__label">Enter Your First Name:</label><br>
+                <input type="text" class="form__input" name="firstname" required>
+            </div>
+            <div class="form__item">
+                <label for="lastname" class="form__label">Enter Your Last Name:</label><br>
+                <input type="text" class="form__input" name="lastname" required>
+            </div>
+            <div class="form-item">
+                <label for="email" class="form__label">Enter Your Email:</label><br>
+                <input type="email" class="form__input" name="email" required>
+            </div>
+            <div class="form-item">
+                <label for="password" class="form__label">Create a New Password: </label><br>
+                <input type="password" class="form__input" name="password" required>
+            </div>
+            <hr>
+            <div class="form-item">
+                <label for="businessacc" class="form__label2">Business Account</label>
+                <input type="radio" class="form__input2" name="businessacc">
+            </div>
+
+            <div class="form__item">
+                <label for="personalacc" class="form__label2">Personal Account</label>
+                <input type="radio" class="form__input2" name="personalacc">
+            </div>
+            <div class="form__item">
+                <label for="terms1" class="form__label2">I accept the <a href="abc.com">Terms and Conditions</a></label>
+                <input type="checkbox" class="form__input2" name="terms1" required>
+            </div>
+            <hr>
+            <div class="form__item2">
+                <label for="picture1" class="form__label2">Upload a profile picture: </label><br>
+                <input type="file" class="form__input2" name="picture1"/>
+            </div>
+            <div class="form__item2">
+                <label for="age1" class="form__label2">Input your age:</label><br>
+                <input type="age" class="form__input" name="age1">
+            </div>
+            <div class="form__item2">
+                <label for="bio1" class="form__label2">Create a bio:</label><br>
+                <input type="text" class="form__bio" name="bio1" placeholder="I'm coming from...">
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
