@@ -30,14 +30,15 @@
             </div>
             <hr>
             <div class="form-item">
-                <label for="businessacc" class="form__label2">Business Account</label>
-                <input type="radio" class="form__input2" name="businessacc">
+                <input type="radio" class="form__input2" id="businessacc" name="acc">
+                <label for="acc" class="form__label2">Business Account</label>
+                
+                <br>
+                <input type="radio" id="personalacc" class="form__input2" name="acc">
+                <label for="personalacc" class="form__label2">Personal Account</label>
+                
             </div>
 
-            <div class="form__item">
-                <label for="personalacc" class="form__label2">Personal Account</label>
-                <input type="radio" class="form__input2" name="personalacc">
-            </div>
             <div class="form__item">
                 <label for="terms1" class="form__label2">I accept the <a href="abc.com">Terms and Conditions</a></label>
                 <input type="checkbox" class="form__input2" name="terms1" required>
@@ -47,6 +48,7 @@
                 <label for="picture1" class="form__label2">Upload a profile picture: </label><br>
                 <input type="file" class="form__input2" name="picture1"/>
             </div>
+            <br>
             <div class="form__item2">
                 <label for="age1" class="form__label2">Input your age:</label><br>
                 <input type="age" class="form__input" name="age1">
@@ -56,7 +58,7 @@
                 <input type="text" class="form__bio" name="bio1" placeholder="I'm coming from...">
             </div>
             <div class="submit">
-                <input type="submit" value="Submit">
+                <input id="submit" type="submit" value="Submit">
             </div>
         </form>
     </body>

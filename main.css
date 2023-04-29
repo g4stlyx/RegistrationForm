@@ -58,6 +58,7 @@
      border: 0px;
      border-top: 1px solid;
   }
-  .submit{
-     padding:1.2em; 
+  #submit{
+     margin:30px 0 0 0;
+     padding:1em 1.3em; 
   }
